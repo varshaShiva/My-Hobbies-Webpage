@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+}
+
+#hobbies {
+    background: linear-gradient(#79e8c7 0%, #e879e6 100%)
+}
+
+#about {
+    background: linear-gradient(#e879e6 0%, #dbcc2a 100%)
+}
+
+#bookIntro {
+    background: linear-gradient(#dbcc2a 0%, #d17117 100%)
+}
+
+
+#book {
+    height: 250px;
+    width: 250px;
+}
+.links:hover{
+    background-color: aqua;
+}
+html{
+    scroll-behavior:smooth;
+}
+.links{
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:9px;
+    padding-right: 9px;
+    font-size: 20px;
+    list-style: none;
+}
+.article:hover{
+    color:darkcyan;
+}
